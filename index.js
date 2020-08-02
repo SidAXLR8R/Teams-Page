@@ -12,6 +12,7 @@ hamMenu.addEventListener('click',function(){
     line3.classList.toggle('menu-3');
     line1.classList.toggle('menu-1');
     navMenu.classList.toggle('show');
+    document.querySelector('body').classList.toggle('noScrollY');
 })
 //click events on the window
 document.addEventListener('click',function(e){
